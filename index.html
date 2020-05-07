@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Darul Annas Septihan</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- profile -->
+        <div class="jumbotron">
+            <img src="img/profil-image.jpg" alt="Photo Profile">
+            <h1>Darul Annas Septihan</h1>
+            <p>Web Developer
+            </p>
+        </div>
+    <nav>
+    <ul>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+    </ul>
+    </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+    <div id="content">
+        <!-- about me -->
+    <article id="aboutme" class="card">
+    <h2>About Me</h2>
+    <p>I am a freelancer for web developer
+    </p>
+    </article>
+
+        <!-- skills -->
+    <article id="skills" class="card">
+    <h2 id="skills">Skills</h2>
+    <div class="barcanvas">
+        <canvas id="barChart"></canvas>
+    </div>
+        <legend for="barChart"></legend>
+    </article>
+    
+        <!-- portfolio -->
+    <article id="portfolio" class="card">
+        <div class="container">
+                    <h2>Portfolio</h2>
+            <table class="tb-portfolio">
+              <tr class="row-portfolio">
+                <td class="col-portfolio">
+                <div class="card-portfolio">
+                  <a href="#bg-portfolio-1"><img src="img/portfolio/webiec.png" class="card-img" alt="webiec"></a>
+                </div>
+                <div class="overlay" id="bg-portfolio-1">
+                    <a href="#portfolio" class="close">CLOSE</a>
+                    <img src="img/portfolio/webiec.png" alt="webiec">
+                </div>
+                </td>
+                <td class="col-portfolio">
+                <div class="card-portfolio">
+                  <a href="#bg-portfolio-2"><img src="img/portfolio/webnangte.png" class="card-img" alt="webnangte"></a>
+                </div>
+                <div class="overlay" id="bg-portfolio-2">
+                    <a href="#portfolio" class="close">CLOSE</a>
+                    <img src="img/portfolio/webnangte.png" alt="webnangte">
+                </div>
+                </td>
+              </tr>
+              <tr class="row-portfolio">
+                <td class="col-portfolio">
+                <div class="card-portfolio">
+                  <a href="#bg-portfolio-3"><img src="img/portfolio/webpotfolio1.png" class="card-img" alt="webportfolio1"></a>
+                </div>
+                <div class="overlay" id="bg-portfolio-3">
+                    <a href="#portfolio" class="close">CLOSE</a>
+                    <img src="img/portfolio/webpotfolio1.png" alt="webportfolio1">
+                </div>
+                </td>
+                <td class="col-portfolio">
+                <div class="card-portfolio">
+                  <a href="#bg-portfolio-4"><img src="img/portfolio/webimaginestudio.png" class="card-img" alt="webimaginestudio"></a>
+                </div>
+                <div class="overlay" id="bg-portfolio-4">
+                    <a href="#portfolio" class="close">CLOSE</a>
+                    <img src="img/portfolio/webimaginestudio.png" alt="webimaginestudio">
+                </div>
+                </td>
+              </tr>
+              <tr class="row-portfolio">
+                <td class="col-view" colspan="2">
+                <br><br>
+                <a class="view" href="https://drive.google.com/open?id=10Ww6EbDJ2GEk1ipm7V1tNHLyf2Dxx562" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')">more details</a>
+                </td>
+              </tr>
+            </table>
+        </div>   
+    </div>
+
+    <aside>
+        <!-- contact me -->
+    <article id="contactme" class="contactme card">
+        <header>
+        <h2>Contact Me</h2>
+        </header>
+        <section>
+            <table>
+                <tr>
+                    <th><a href = "mailto:darulannas7@gmail.com" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')"><img src="img/email.png" alt="email"></a></th>
+                    <td><a href = "mailto:darulannas7@gmail.com" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')">darulannas7@gmail.com</a></td>
+                </tr>
+                <tr>
+                    <th><a href="https://api.whatsapp.com/send?phone=6285155226203" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')"><img src="img/phone.png" alt="phone"></a></th>
+                    <td><a href="https://api.whatsapp.com/send?phone=6285155226203" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')">085155226203</a></td>
+                </tr>
+                <tr>
+                    <th><a href="https://github.com/darulannas" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')"><img src="img/Octocat.png" alt="github"></a></th>
+                    <td><a href="https://github.com/darulannas" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')">darulannas</a></td>
+                </tr>
+            </table>
+        </section>
+    </article>
+
+        <!-- certificate -->
+    <article id="certificate" class="certificate card">
+        <header>
+        <h2>Certificate</h2>
+        </header>
+        <section>
+            <figure>
+                <a href="#bg-certificate">
+                <img src="img/sertifikat_course_123_840517_070520132442.jpg" class="card-img">
+                </a>
+                <figcaption>Basic Web Programming (Google Curriculum) by <a href="https://www.dicoding.com/" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')"><img src="https://d17ivq9b7rppb3.cloudfront.net/original/commons/new-ui-logo.png"></a><a href="https://www.dicoding.com/" target="_blank" onclick="return confirm('Apakah Ingin Melanjutkan?')"> Dicoding</a></figcaption>
+            </figure>
+            <div class="overlay" id="bg-certificate">
+                <a href="#certificate" class="close">CLOSE</a>
+                <img src="img/sertifikat_course_123_840517_070520132442.jpg" alt="Dasar Web">
+            </div>
+        </section>
+    </article>
+    </aside>
+    </main>
+
+    <!-- footer -->
+    <footer>
+    <p>Darul Annas Septihan &#169; 2020</p>
+    </footer>
+
+    <script src="js/welcome.js"></script>
+    <script src="js/barchart.js"></script>
+</body>
+</html>
