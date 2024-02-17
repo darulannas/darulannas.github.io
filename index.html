@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Darul Annas Septihan</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="navbar-container">
+      <nav class="nav-list">
+        <div class="logo"><h4>Darul Annas Septihan</h4></div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#clients">Clients</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="jumbotron" id="about">
+        <div class="jumbotron-description">
+          <h1 class="title">Darul Annas Septihan</h1>
+          <h2>Full-Stack Developer</h2>
+          <p>Crafting digital magic with HTML, CSS, JavaScript, and Node.js. Eager to contribute solutions to impactful projects. Let's connect! 🚀</p>
+          <div class="social-media">
+            <ul>
+              <li>
+                <a href="https://github.com/darulannas" target="_blank"><i class="fab fa-github"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/darulannas/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/@darulannas" target="_blank"><i class="fab fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+          <button>Contact Me</button>
+        </div>
+        <div class="jumbotron-image">
+          <img src="img/darul.jpg" alt="Darul Annas Septihan" />
+        </div>
+      </section>
+      <section class="portfolio" id="portfolio">
+        <div class="portfolio-description">
+          <h2>PORTFOLIO</h2>
+          <h1>Project Terbaru</h1>
+        </div>
+        <div class="card-container">
+          <div class="portfolio-card">
+            <div class="card-image">
+              <img src="img/1.png" alt="Bookshelf App" />
+            </div>
+            <div class="card-content">
+              <h3>Bookshelf App</h3>
+              <p>Aplikasi yang dibuat untuk memenuhi submission pada kelas Front-End Beginner di platform Dicoding Indonesia</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="card-image">
+              <img src="img/2.png" alt="Notes App" />
+            </div>
+            <div class="card-content">
+              <h3>Notes App</h3>
+              <p>Aplikasi yang dibuat untuk memenuhi submission pada kelas React Fundamental di platform Dicoding Indonesia</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="card-image">
+              <img src="img/3.png" alt="Forum App" />
+            </div>
+            <div class="card-content">
+              <h3>Forum App</h3>
+              <p>Aplikasi yang dibuat untuk memenuhi submission pada kelas React Expert di platform Dicoding Indonesia</p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="card-image">
+              <img src="img/4.png" alt="Company Profile Skynindo" />
+            </div>
+            <div class="card-content">
+              <h3>Company Profile Skynindo</h3>
+              <p>
+                Merupakan website company profile yang juga menyediakan fitur transaksi untuk pelanggan Skynindo. Disini saya berperan sebagai full-stack developer. Dikembangkan dengan React.js, framework Next.js dan Tailwind CSS di sisi
+                front-end
+              </p>
+            </div>
+          </div>
+          <div class="portfolio-card">
+            <div class="card-image">
+              <img src="img/5.png" alt="Transaction Web Digipass" />
+            </div>
+            <div class="card-content">
+              <h3>Transaction Web Digipass</h3>
+              <p>
+                Merupakan website sistem transaksi untuk pelanggan Digipass. Disini saya berperan untuk maintenance dan develope yang meliputi penambahan fitur dan penyesuaian. Dikembangkan dengan CodeIgniter 3 dan beberapa fungsi yang
+                mengkonsumsi API
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="clients" id="clients">
+        <div class="clients-description">
+          <h2>CLIENTS</h2>
+          <h1>Yang Pernah Bekerjasama</h1>
+        </div>
+        <div class="logo-container">
+          <div class="logo-image">
+            <img src="img/dicoding.png" alt="Dicoding" />
+          </div>
+          <div class="logo-image">
+            <img src="img/skynindo.png" alt="Skynindo" />
+          </div>
+          <div class="logo-image">
+            <img src="img/digipass.png" alt="Digipass" />
+          </div>
+        </div>
+      </section>
+      <section class="contact-me" id="contact">
+        <div class="contact-description">
+          <h2>CONTACT ME</h2>
+        </div>
+        <div class="form-contact">
+          <form action="" method="">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <br />
+              <input type="text" name="name" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <br />
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <br />
+              <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            </div>
+            <div class="form-group"><button>Send</button></div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer><p>Darul Annas Septihan &#169; 2024</p></footer>
+    <div class="scroll-to-top">
+      <a href="#"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
